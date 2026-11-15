@@ -1,0 +1,26 @@
+{
+  "name": "raio-x-dominio",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Digite um site ou IP e veja onde ele está hospedado, quem é o provedor, os servidores de e-mail e o registro do domínio.",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "lucide-react": "^0.575.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "@tailwindcss/vite": "^4.2.1",
+    "tailwindcss": "^4.2.1",
+    "tw-animate-css": "^1.3.4",
+    "vite": "8.1.5",
+    "typescript": "^5.8.3",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.2.0"
+  },
+  "devDependencies": {}
+}
